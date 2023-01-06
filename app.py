@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 
 app = Flask(__name__)
 
@@ -20,7 +22,7 @@ def my_form_post():
     secs_left = ''
     chrome_options = Options()
     chrome_options.add_argument("--headless")
-    driver = webdriver.Chrome(chrome_options=chrome_options)
+    driver = webdriver.Chrome(chrome_options=chrome_options, service=Service(ChromeDriverManager().install()))
     driver.get(url)
     driver.find_element(By.CSS_SELECTOR, "[aria-label='Reject all']").click()
     driver.switch_to.default_content()
