@@ -3,6 +3,9 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
+from selenium import webdriver
+from selenium.webdriver.firefox.service import Service as FirefoxService
+from webdriver_manager.firefox import GeckoDriverManager
 
 app = Flask(__name__)
 
@@ -20,7 +23,7 @@ def my_form_post():
     secs_left = ''
     chrome_options = Options()
     chrome_options.add_argument("--headless")
-    driver = webdriver.Chrome(chrome_options=chrome_options)
+    driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()), chrome_options=chrome_options)
     driver.get(url)
     driver.find_element(By.CSS_SELECTOR, "[aria-label='Reject all']").click()
     driver.switch_to.default_content()
