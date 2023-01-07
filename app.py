@@ -21,9 +21,9 @@ def my_form_post():
     hours_total = ''
     mins_left = ''
     secs_left = ''
-    chrome_options = Options()
-    chrome_options.add_argument("--headless")
-    driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()), chrome_options=chrome_options)
+    options = FirefoxOptions()
+    options.add_argument("--headless")
+    driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()), options=options)
     driver.get(url)
     driver.find_element(By.CSS_SELECTOR, "[aria-label='Reject all']").click()
     driver.switch_to.default_content()
