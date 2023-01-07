@@ -20,7 +20,7 @@ def my_form_post():
     secs_left = ''
     chrome_options = Options()
     chrome_options.add_argument("--headless")
-    driver = webdriver.Chrome(chrome_options=chrome_options, executable_path=r"/.wdm/drivers/chromedriver/linux64/108.0.5359/chromedriver.exe")
+    driver = webdriver.Chrome(chrome_options=chrome_options)
     driver.get(url)
     driver.find_element(By.CSS_SELECTOR, "[aria-label='Reject all']").click()
     driver.switch_to.default_content()
