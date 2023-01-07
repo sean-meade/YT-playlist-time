@@ -21,7 +21,7 @@ def my_form_post():
     hours_total = ''
     mins_left = ''
     secs_left = ''
-    options = FirefoxOptions()
+    options = Options()
     options.add_argument("--headless")
     driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()), options=options)
     driver.get(url)
