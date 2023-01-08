@@ -1,0 +1,66 @@
+1673109605824	geckodriver	INFO	Listening on 127.0.0.1:61305
+1673109608905	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "61306" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\seanp\\AppData\\Local\\Temp\\rust_mozprofileCxeRUn"
+*** You are running in headless mode.
+1673109609747	Marionette	INFO	Marionette enabled
+1673109609754	Marionette	INFO	Listening on port 61315
+Read port: 61315
+WebDriver BiDi listening on ws://127.0.0.1:61306
+1673109609915	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\seanp\\AppData\\Local\\Temp\\rust_mozprofileCxeRUn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61306/devtools/browser/dbeb0fff-58a0-424c-9a93-f158a7aa5795
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://consent.youtube.com."
+1673109615752	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2023-01-07T16:40:15Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-07T16:40:15Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-07T16:40:15Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-07T16:40:15Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-07T16:40:17Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-07T16:40:17Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-07T16:40:17Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-07T16:40:17Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1673110893439	geckodriver	INFO	Listening on 127.0.0.1:61526
+1673110896503	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "61527" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\seanp\\AppData\\Local\\Temp\\rust_mozprofileLeyLiU"
+*** You are running in headless mode.
+1673110897382	Marionette	INFO	Marionette enabled
+1673110897401	Marionette	INFO	Listening on port 61536
+Read port: 61536
+WebDriver BiDi listening on ws://127.0.0.1:61527
+1673110897652	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\seanp\\AppData\\Local\\Temp\\rust_mozprofileLeyLiU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61527/devtools/browser/3f72cf19-ac80-4a27-acaf-d6134f33ac50
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://consent.youtube.com."
+1673110902470	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2023-01-07T17:01:42Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-07T17:01:42Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-07T17:01:42Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-07T17:01:42Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-07T17:01:44Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-07T17:01:44Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-07T17:01:44Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-07T17:01:44Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\seanp\AppData\Local\Temp\rust_mozprofileLeyLiU\bookmarkbackups\bookmarks-2023-01-07_11_8UL516cDrkvUAddqnhhToA==.jsonlz4) because it does not exist
+--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\seanp\\AppData\\Local\\Temp\\rust_mozprofileOQuwjC"
+*** You are running in headless mode.
+1673110949954	Marionette	INFO	Marionette enabled
+1673110949960	Marionette	INFO	Listening on port 61663
+Read port: 61663
+WebDriver BiDi listening on ws://127.0.0.1:61654
+1673110950096	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\seanp\\AppData\\Local\\Temp\\rust_mozprofileOQuwjC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61654/devtools/browser/f43bcae2-19b1-4265-aff5-5305fa99f776
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://consent.youtube.com."
+1673110955046	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2023-01-07T17:02:35Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-07T17:02:35Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-07T17:02:35Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-07T17:02:35Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-07T17:02:36Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-07T17:02:36Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-07T17:02:36Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-07T17:02:36Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\seanp\AppData\Local\Temp\rust_mozprofileOQuwjC\bookmarkbackups\bookmarks-2023-01-07.jsonlz4) because it does not exist
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\seanp\AppData\Local\Temp\rust_mozprofileOQuwjC\bookmarkbackups\bookmarks-2023-01-07_11_C-Iabxqg+TQTptSglV0Unw==.jsonlz4) because it does not exist
