@@ -1,11 +1,10 @@
 # syntax=docker/dockerfile:1
-FROM ubuntu:14.04
-
+FROM ubuntu:18.04
+RUN apt-get update
 RUN apt -f install -y
 RUN apt-get install -y wget
 RUN apt install chromium-browser
-RUN wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-RUN apt-get install ./google-chrome-stable_current_amd64.deb -y
+RUN apt-get install -y chromium-browser
 
 FROM python:3.8-slim-buster
 
