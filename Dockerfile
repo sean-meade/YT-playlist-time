@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM ubuntu:18.04
+FROM ubuntu:14.04
 RUN apt -f install -y
 RUN apt-get install -y wget
 RUN apt install chromium-browser
