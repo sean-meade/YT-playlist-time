@@ -64,3 +64,26 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 [2023-01-07T17:02:36Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
 JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\seanp\AppData\Local\Temp\rust_mozprofileOQuwjC\bookmarkbackups\bookmarks-2023-01-07.jsonlz4) because it does not exist
 JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\seanp\AppData\Local\Temp\rust_mozprofileOQuwjC\bookmarkbackups\bookmarks-2023-01-07_11_C-Iabxqg+TQTptSglV0Unw==.jsonlz4) because it does not exist
+1673270065088	geckodriver	INFO	Listening on 127.0.0.1:61769
+1673270068178	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "61770" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\seanp\\AppData\\Local\\Temp\\rust_mozprofileGotpFA"
+*** You are running in headless mode.
+1673270068990	Marionette	INFO	Marionette enabled
+1673270068998	Marionette	INFO	Listening on port 61779
+Read port: 61779
+WebDriver BiDi listening on ws://127.0.0.1:61770
+1673270069146	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\seanp\\AppData\\Local\\Temp\\rust_mozprofileGotpFA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61770/devtools/browser/53c6f7d8-19b4-4c86-9344-dd94b3079fe0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://consent.youtube.com."
+1673270074017	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2023-01-09T13:14:34Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-09T13:14:34Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-09T13:14:34Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-09T13:14:34Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-09T13:14:35Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-09T13:14:35Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-09T13:14:35Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-09T13:14:35Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+Invalid port. Exiting...
+Invalid port. Exiting...
